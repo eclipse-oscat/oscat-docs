@@ -10,7 +10,7 @@
 
 # OSCAT Dokumentation
 
-Willkommen zur Dokumentation von **OSCAT** (Open Source Community for Automation Technology)! ([Dokumentation als PDF herunterladen](https://eclipse-oscat.github.io/oscat-docs/de/pdf/document.pdf))
+Willkommen zur Dokumentation von **OSCAT** (Open Source Community for Automation Technology)! ([Dokumentation als PDF herunterladen](https://eclipse-oscat.github.io/oscat-docs/de/pdf/oscat-docs-de.pdf))
 
 ## Über OSCAT
 
