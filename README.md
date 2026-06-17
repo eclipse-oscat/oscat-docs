@@ -13,6 +13,11 @@ Dieses Repository enthält die Haupt-Landingpage für die **OSCAT Dokumentation*
 
 Die Dokumentation ist verfügbar unter: [https://oscat.readthedocs.io](https://oscat.readthedocs.io)
 
+- [📄 PDF Deutsch (oscat-docs-de.pdf)](https://eclipse-oscat.github.io/oscat-docs/de/pdf/oscat-docs-de.pdf)
+- [📄 PDF English (oscat-docs-en.pdf)](https://eclipse-oscat.github.io/oscat-docs/en/pdf/oscat-docs-en.pdf)
+- [GitHub Repository](https://github.com/eclipse-oscat/oscat-docs)
+
+
 ## Teilprojekte
 
 - [OSCAT Basic](https://oscat-basic.readthedocs.io) - Basic-Funktionsbibliothek
