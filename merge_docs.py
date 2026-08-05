@@ -53,22 +53,6 @@ def _detect_image_ext(data):
         return '.svg'
     return None
 
-def _detect_image_ext(data):
-    """Detect image format from magic bytes, returns extension like '.png'."""
-    if data[:8] == b'\x89PNG\r\n\x1a\n':
-        return '.png'
-    if data[:2] == b'\xff\xd8':
-        return '.jpg'
-    if data[:6] in (b'GIF87a', b'GIF89a'):
-        return '.gif'
-    if data[:4] == b'RIFF' and data[8:12] == b'WEBP':
-        return '.webp'
-    if data[:2] == b'BM':
-        return '.bmp'
-    if b'<svg' in data[:200] or b'<?xml' in data[:200]:
-        return '.svg'
-    return None
-
 def download_remote_image(url, docs_dir):
     # Create downloaded directory under docs/img/downloaded
     downloaded_dir = os.path.join(docs_dir, 'img', 'downloaded')
