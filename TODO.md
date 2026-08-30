@@ -1,11 +1,13 @@
 # TODO: Vollständige Einsortierung der verbleibenden 98 .md Dateien
 
 ## Status
+
 - **98 .md Dateien** aus `en/` sind noch nicht in die Repos einsortiert
 - Diese Dateien sind "unmapped" - sie haben keine AixOCAT-Kategorie-Zuordnung
 - Sie gehören überwiegend zu **Network** (z.B. base64-*, dlog-*, csv_parser-*) oder **Building** (z.B. air_densitiy, dew_tmp)
 
 ## Blocker
+
 Die finale Einsortierung kann erst erfolgen, wenn folgende CODESYS-Produkte verfügbar sind:
 
 1. **CODESYS File Based Storage 1.0.0.0**
@@ -15,16 +17,20 @@ Die finale Einsortierung kann erst erfolgen, wenn folgende CODESYS-Produkte verf
    - URL: https://store.codesys.com/de/codesys-git.html
 
 ## Release-Termin
+
 - **Geplant:** Ende August (lt. CODESYS Release Plan/Roadmap)
 - URL: https://www.codesys.com/eco-system/up-to-date/release-lifecycle/release-plan-roadmap/
 
 ## Warum warten?
+
 Erst mit File Based Storage und Git 2.x kann sichergestellt werden, dass die Bausteine korrekt ihren jeweiligen OSCAT-Library-Modulen zugeordnet werden. Eine vorzeitige manuelle Zuordnung könnte:
+
 - Zu falschen Kategorien führen
 - Nach dem CODESYS-Update neu zugeordnet werden müssen
 - Inkonsistenzen zwischen Doku und tatsächlicher Library-Struktur erzeugen
 
 ## Betroffene Dateien (Auszug)
+
 ```
 # Network-Module (vermutlich)
 base64.md
@@ -53,6 +59,7 @@ dew_tmp.md
 ```
 
 ## Nächste Schritte nach CODESYS-Release
+
 1. File Based Storage installieren
 2. Git 2.x installieren
 3. OSCAT-Libraries mit neuer Struktur importieren
